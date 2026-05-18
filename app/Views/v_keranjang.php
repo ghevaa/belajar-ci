@@ -1,3 +1,4 @@
-ini halaman keranjang<br>
-<a href="/home">ke halaman home</a><br>
-<a href="/produk">ke halaman produk</a>
+<?= $this->extend('layout') ?>
+<?= $this->section('content') ?>
+ini halaman keranjang
+<?= $this->endSection() ?>
